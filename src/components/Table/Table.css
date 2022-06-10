@@ -1,0 +1,38 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #vatoms {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #vatoms td, #vatoms th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #vatoms tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #vatoms tr:hover {background-color: #ddd;}
+  
+  #vatoms th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(232, 91, 45);
+    color: white;
+  }
+
+.TablePage {
+    text-align: center;
+}
+
+.sub-btns-div {
+    padding-top: 30px;
+    justify-content: flex-end;
+}
